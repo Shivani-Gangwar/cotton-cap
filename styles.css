@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+    /* padding: 80px 60px; */
+    padding-top: 120px;
+    padding-left: 60px;
+    gap: 80px;
+    
+}
+#left{
+    width: 42%;
+    height: 100%;
+    /* background-color:blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+    
+#left h1{
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 110px;
+}
+
+#bottom-left{
+    width:100%;
+    height: 40%;
+    /* background-color: aqua */
+}
+#color{
+    /* background-color: orchid; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    
+
+}
+
+#color1{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(245, 76, 76, 0.566);
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+#color2{
+    width: 20px;
+    height:20px;
+    background-color:brown;
+    border-radius: 50%;
+    
+}
+#color h5{
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 10px;
+    
+}
+
+#detail h3{
+    font-size: 25px;
+    font-weight:600;
+    margin-top: 30px;
+    
+}
+#detail p{
+     margin-top: 10px;   
+     line-height: 22px;
+}
+ 
+#right{
+    padding-right: 10px;
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(198, 13, 158); */
+    position: relative;
+}
+ #right-top{
+    /* background-color: rgb(4, 62, 91); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #right-top h3{
+    margin-top: 30px;
+    padding-right: 18px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+ #right-top h4{
+    margin-top: 30px;
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: 200;
+ }
+ #right-top h4 i{
+    
+    font-size: 12px;
+    font-weight: 600;
+ }
+ #right img{
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+ }
+ #black-gola{
+    position: absolute;
+    background-color: rgb(49, 46, 46);
+    color: white; 
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -15%;
+    top: 17%;
+    
+}
+#black-gola h4{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+#rotate{
+    /* background-color: brown; */
+    position: absolute;
+    transform-origin: 0% 0%;
+    rotate: -90deg;
+    left: -12%;
+    top: 95%;
+
+}
+#rotate h2{
+    font-size: 30px;
+    font-weight: 50;
+    font-family: 'Times New Roman', Times, serif;
+
+}
